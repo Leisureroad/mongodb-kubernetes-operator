@@ -55,7 +55,7 @@ spec:
         - name: MONGODB_REPO_URL
           value: docker.io
         - name: CLUSTER_DOMAIN
-          value: mongdb.fliu-demo.xyz
+          value: YOUR_CLUSTER_DOMAIN
         image: quay.io/mongodb/mongodb-kubernetes-operator:0.7.3
         imagePullPolicy: Always
         name: mongodb-kubernetes-operator
