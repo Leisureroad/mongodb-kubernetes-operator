@@ -1,0 +1,4 @@
+mongodb:
+  uri: "MONGO_URI"
+serviceMonitor:
+  enabled: false
