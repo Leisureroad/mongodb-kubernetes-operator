@@ -2,7 +2,7 @@
 apiVersion: mongodbcommunity.mongodb.com/v1
 kind: MongoDBCommunity
 metadata:
-  name: mongodb-small-cluster
+  name: mongodb-cluster-small
 spec:
   members: 3
   type: ReplicaSet
